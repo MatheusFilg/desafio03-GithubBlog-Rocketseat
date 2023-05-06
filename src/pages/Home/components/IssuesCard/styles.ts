@@ -60,6 +60,8 @@ export const IssuesCardPost = styled.p`
   /* Overflow do texto para fazer parecer que tem mais 
   coisas com ... no final */
 
+  width: 100%;
+
   color: ${(props) => props.theme['gray-300']};
 
   font-family: 'Nunito';

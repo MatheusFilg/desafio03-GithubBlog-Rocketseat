@@ -8,3 +8,8 @@ export const HomeContainer = styled.section`
   gap: 3rem;
   padding: 0 18rem;
 `
+export const IssuesListContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+`
